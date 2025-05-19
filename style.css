@@ -62,15 +62,14 @@ header {
 }
 
 .main-body2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: url("https://www.7up.com/images/simple-7up/image2.png");
   width: 100vw;
   height: 90vh;
 }
-.main-body2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .innersection {
   display: flex;
   height: 25%;
@@ -100,4 +99,33 @@ header {
   border-radius: 20px;
   font-size: medium;
   color: white;
+}
+
+.main-body3 {
+  background: url("https://www.7up.com/images/simple-7up/image1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url("https://www.7up.com/images/simple-7up/image2.png"); */
+  width: 100vw;
+  height: 90vh;
+}
+
+footer {
+  background: #3e3e3e;
+  width: 100vw;
+  height: 12vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+span {
+  margin-left: 25px;
+}
+
+footer :first-child {
+  flex-direction: row;
 }
