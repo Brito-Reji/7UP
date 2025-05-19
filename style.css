@@ -73,7 +73,31 @@ header {
 }
 .innersection {
   display: flex;
-  height: 50%;
-  width: 80%;
-  background: rgba(0, rgb(3, 150, 3), 0, 0.4);
+  height: 25%;
+  width: 45%;
+  border-radius: 120px;
+  background: rgba(10, 85, 10, 0.8);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.innersection > :nth-child(1) {
+  font-size: 50px;
+  margin: 0;
+}
+.innersection {
+  color: white;
+}
+
+.innersection > :nth-child(2) {
+}
+.innersection > :nth-child(3) {
+  background: none;
+  border: 2px solid white;
+  height: 18%;
+  width: 17%;
+  border-radius: 20px;
+  font-size: medium;
+  color: white;
 }
