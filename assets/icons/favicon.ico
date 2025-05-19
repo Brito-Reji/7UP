@@ -1,0 +1,534 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <title>Page Not Found | 7up.com</title>
+  
+  <meta name="title" content="Page Not Found | 7up.com">
+  <meta name="description" content="404 Page Not Found. The page you are trying to reach does not exist. Please return to the homepage or visit one of our other pages!">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="_token" content="l4OzBgftG2XpDX8Fb1ikEbWzAkgQrHYImbLmCLtj" />
+
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+      <meta property="og:title" content="Page Not Found"/>
+<meta property="og:description" content="404 Page Not Found. The page you are trying to reach does not exist. Please return to the homepage or visit one of our other pages!"/>
+<meta property="og:type" content=""/>
+<meta property="og:url" content="https://www.7up.com"/>
+<meta property="og:image" content="https://www.7up.com"/>
+<meta property="og:site_name" content="7up.com"/>
+
+
+
+    	<meta name="google-site-verification" content="rFpGO92FBC90tmws3bYLJPxBsKpEYia4kRH_ZJQkyOU" />
+	<!-- Pinterest Site Verification-->
+	<meta name="p:domain_verify" content="4d9067859eb4d2cd4dfcad8abc26deb8" />
+
+    
+    
+    	<script type='text/javascript' src='//service.maxymiser.net/cdn/dpsg/7up/js/mmcore.js' async></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery-3.1.1.min.js">\x3C/script>')</script>
+
+	<link href="//cloud.webtype.com/css/1053d752-9f2a-4fad-9de2-2f47c343c72f.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="/7upFavicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<link rel="stylesheet" href="https://use.typekit.net/fgu3qqr.css">
+
+	<script type="text/javascript" src="https://www.7up.com/js/vendor/modernizr-2.8.3.min.js" defer></script>
+	<script>
+		if (/iPad|iPhone|iPod/.test(navigator.platform)) {
+			document.documentElement.className += ' iOS no-fixed-bg';
+		}
+	</script>
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Corporation",
+		"name": "7UP",
+		"alternateName": "7 UP",
+		"url": "https://www.7up.com/",
+		"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/7-up_Logo.svg/1093px-7-up_Logo.svg.png",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "+1 (800) 696-5891",
+			"contactType": "customer service",
+			"contactOption": "TollFree",
+			"areaServed": "US"
+		},
+		"sameAs": [
+			"https://www.facebook.com/7UP",
+			"https://twitter.com/7up",
+			"https://www.instagram.com/7up/",
+			"https://www.youtube.com/user/7UP",
+			"https://www.pinterest.com/7up/",
+			"https://en.wikipedia.org/wiki/7_Up"
+		]
+	}
+	</script>
+	<script>
+	const gpcValue = navigator.globalPrivacyControl
+
+if (gpcValue) {
+
+  // signal detected, do something
+
+}
+	</script>
+ <script>
+   function clickfunc_recipes(obj) {
+    var obj_text = $(obj).text();
+	var obj_link = obj.getAttribute("href");
+	  
+		utag.link({
+ 'event_name': 'recipe_interaction',
+ 'interaction_type': 'view recipe', // e.g. view recipe, see more recipes,
+'click_url': obj_link,
+ 'recipe_name': obj_text,
+ 'recipe_category': 'drinks' 
+});
+  		
+	  
+		 }
+ </script>
+  <script>
+   function clickfunc_footer(obj) {
+    var obj_text = $(obj).text();
+	var obj_link = obj.getAttribute("href");
+	 
+	if(obj_link == null){
+		obj_link = 'Pop up';
+	}
+	
+		 utag.link({
+		 'event_name': 'click',
+		 'click_url': obj_link,
+		 'click_text': obj_text,
+		 'outbound_link_type': 'general link'
+		});
+			 
+		 }
+ </script>
+   <script>
+   function clickfunc_outbound(obj) {
+    var obj_text = $(obj).text();
+	var obj_link = obj.getAttribute("href");
+		 
+	   //alert(obj_link);
+	   utag.link({
+			 'event_name': 'click',
+			 'click_url': obj_link,
+			 'click_text': obj_text,
+			 'outbound_link_type': 'general link'
+		});
+			 
+		 }
+ </script>
+   <script>
+   function clickfunc_products(obj,type) {
+			var obj_text = $(obj).text();
+			var obj_link = obj.getAttribute("href");
+
+			utag.link({
+			'event_name': 'product_interaction',
+			'interaction_type': type,  
+			'product_name': obj_text,
+			'product_category': 'drinks',
+			}); 
+ }
+		 
+ </script>
+   <script>
+   function clickfunc_social(obj) {
+    var obj_text = $(obj).text();	
+	var obj_link = obj.getAttribute("href");
+	  
+	 //alert(obj_link);
+	if(obj_link == null){
+		obj_link = 'Pop up';
+	}
+	
+		 utag.link({
+			 'event_name': 'click',
+			 'click_url': obj_link,
+			 'click_text': obj_text,
+			 'outbound_link_type': 'social  link'
+		});
+			 
+		 }
+ </script>
+   <script>
+   function clickfunc_nav(obj) {
+    var obj_text = $(obj).text();
+	var click_type = 'text';
+	var obj_link = obj.getAttribute("href");
+	 
+	//alert(obj_link);
+	if(obj_link == null){
+		click_type = 'icon';
+	} 
+	
+		 utag.link({
+				'event_name': 'internal_navigation',
+				'nav_location': obj_link,
+				'click_text': obj_text,
+				'click_path': obj_link,
+				'click_type': click_type 
+				});
+			 
+		 }
+ </script>
+	        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/qkk2mdb.css">
+
+        
+        <script>
+    const Carbonate = {
+        "locale": "en",
+    };
+</script>
+                    <script type="text/javascript" src="https://display.ugc.bazaarvoice.com/static/7up/en_US/bvapi.js"></script>
+            
+
+    <script type="text/javascript">
+
+		        var deeplinks = [];
+        
+					var pageData = ["carbonate::404-content"];
+		        
+       
+</script>
+
+    </head>
+<body id="" class="lang-en favicon.ico en" data-app-name="7up.com" data-title="" data-slug="favicon.ico" data-loggedin="">
+
+            <script type="text/javascript">
+   
+        var utag_data = {
+                                    page_name: "favicon.ico",   
+            lang: "en",
+            sign_in: "0",
+            nav_category: "favicon.ico",
+            sub_category: "favicon.ico",
+             
+            over21: "0"
+                    }
+
+       
+      
+  </script>
+  <!-- Loading script asynchronously -->
+  <script type="text/javascript">
+      (function(a,b,c,d){
+      a='//tags.tiqcdn.com/utag/dpsg/7up/prod/utag.js';
+      b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+      a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+      })();
+  </script>
+        
+    
+    	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=256584777698427";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+    	<header class="navbar-wrapper" id="header">
+	<nav class="navbar navbar-fixed-top" id="nav-baar">
+		<div class="fluid-container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span>
+				</button>
+				<a class="navbar-brand" href="/en">
+					<img src="/images/7up-logo-large.png" onclick='clickfunc_nav(this)' alt="7UP logo" class="large" id="large-image">
+					<img src="/images/7up-logo-m.png" onclick='clickfunc_nav(this)' alt="" class="small" style="display: none;" id="small-image">
+				</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+										
+													<li class="Products" id="Products">
+								<a href="/en/products" onclick='clickfunc_nav(this)' class="" data-hash="#products">Products</a>
+							</li>
+						 
+										
+													<li class="Recipes" id="Recipes">
+								<a href="/en/recipes" onclick='clickfunc_nav(this)' class="" data-hash="#recipes">Recipes</a>
+							</li>
+						 
+										
+													<li class="stores" id="stores">
+								<a href="/en/stores" onclick='clickfunc_nav(this)' class="" data-hash="#stores">stores</a>
+							</li>
+						 
+										
+						 
+										
+						 
+										
+						 
+										<li class="social-images">
+						<img src="/images/social-media/socialIcons_facebook.png" id="social-image1">
+						<img src="/images/social-media/socialIcons_instagram.png" id="social-image2">
+						<img src="/images/social-media/socialIcons_tiktok.png" id="social-image3">
+						<img src="/images/social-media/socialIcons_x.png" id="social-image4">
+						<img src="/images/social-media/socialIcons_youtube.png" id="social-image5">
+						<img src="/images/social-media/socialIcons_pinterest.png" id="social-image6">
+					</li>
+					
+					<!-- <li><a href="#" class="icon-instagram"></a></li>
+					<li><a href="#" class="icon-tiktok"></a></li>
+					<li><a href="#" class="icon-youtube"></a></li>
+					<li><a href="#" class="icon-pinterest"></a></li> -->
+					<!-- <li><a href="/langswitch/es">ENG/ESP</a></li> -->
+				 
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<img src="/images/7up-logo.png" width="65" height="61" alt="7UP" class="visible-print-block">
+</header>
+
+<script>
+	let width = screen.width;
+	if(width < 768){
+		document.getElementById( 'large-image' ).style.display = 'none';
+		document.getElementById( 'small-image' ).style.display = 'block';
+		if(window.location.pathname == '/en'){
+			document.getElementById( 'navbar' ).style.background = '#00d2c6';
+		}
+	}else{
+        document.getElementById( 'large-image' ).style.display = 'block';
+		document.getElementById( 'small-image' ).style.display = 'none';
+	}
+	document.getElementById('social-image1').onclick = function(e){
+		window.open('https://www.facebook.com/7UP', '_blank');
+    }
+	document.getElementById('social-image2').onclick = function(e){
+		window.open('https://www.instagram.com/7up', '_blank');
+    }
+	document.getElementById('social-image3').onclick = function(e){
+		window.open('https://www.tiktok.com/@7up?lang=en', '_blank');
+    }
+	document.getElementById('social-image4').onclick = function(e){
+		window.open('https://x.com/7up', '_blank');
+    }
+	document.getElementById('social-image5').onclick = function(e){
+		window.open('https://www.youtube.com/user/7UP', '_blank');
+    }
+	document.getElementById('social-image6').onclick = function(e){
+		window.open('https://www.pinterest.com/7up/', '_blank');
+    }
+	if(window.location.pathname == '/en/products'){
+    document.getElementById('Products').style.textDecoration = 'underline';
+	document.getElementById('Products').style.color = 'white';
+	//document.getElementById( 'nav-baar' ).style.background = '#00ae44';
+    }
+	if(window.location.pathname == '/en'){
+		document.getElementById( 'nav-baar' ).style.background = '#00d2c6';
+		//document.getElementById( 'navbar' ).style.background = '#f79a83';
+		//document.getElementById( 'nav-baar' ).style.borderBottom = '1px solid #ffff';
+    }
+	if(window.location.pathname == '/en/recipes'){
+    document.getElementById('Recipes').style.textDecoration = 'underline';
+	document.getElementById('Recipes').style.color = 'white';
+    }
+	if(window.location.pathname == '/en/stores'){
+    document.getElementById('stores').style.textDecoration = 'underline';
+	document.getElementById('stores').style.color = 'white';
+    }
+	if(window.location.href.indexOf("recipes") > -1) {
+		document.getElementById('Recipes').style.textDecoration = 'underline';
+	    document.getElementById('Recipes').style.color = 'white';
+    }
+	// if(window.location.pathname == '/en/digital-bartender'){
+    // document.getElementById('Digital Bartender').style.textDecoration = 'underline';
+	// document.getElementById('Digital Bartender').style.color = 'white';
+    // }
+</script>
+<style>
+	#header #navbar li img{
+		max-width: 29px;
+		padding-top: 8px;
+        padding-right: 1px;
+		cursor: pointer;
+	}
+	#header #navbar .social-images{
+		padding: 0 40px;
+	    margin-bottom: 4px;
+	}
+</style>
+	<div id="body" data-swiftype-index="true">
+			<div id="page-wrapper">
+		<div class="container text-center" >
+		<div class="row">
+			<div class="col-xs-12 err-page">
+				<h1 class="err-header">404<span class="spot indent-left">.</span></h1>
+				<h2>The page you are trying to reach does not exist or has been moved.</h2>
+				<a href="https://www.7up.com/en">
+				Return to the homepage.				</a>
+			</div>
+		</div>
+	</div>
+					<section id="enjoy-7up" data-position="4">
+	<footer id="footer">
+
+		<!-- <svg class="enjoy7up" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 236 173" width="236" height="auto" style="enable-background:new 0 0 236 173;" preserveAspectRatio=”xMidYMid meet” xml:space="preserve">
+			<style type="text/css">
+				.st0{fill:url(#SVGID_1_);}
+				.st1{fill:#9B051B;}
+				.st2{font-family:'bourbon';}
+				.st3{font-size:59.098px;}
+				.st4{letter-spacing:0.9;}
+				.st5{fill:#FFFFFF;}
+				.st6{font-family:'bourbon';}
+			</style>
+			<g id="Layer_1">
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="2.7008" y1="130.0745" x2="232.6667" y2="130.0745" gradientTransform="matrix(1 -0.4516 0 1 0 10.1905)">
+					<stop  offset="0" style="stop-color:#B11B16"/>
+					<stop  offset="1.002835e-02" style="stop-color:#B51C17"/>
+					<stop  offset="6.666434e-02" style="stop-color:#C62219"/>
+					<stop  offset="0.1369" style="stop-color:#D1261B"/>
+					<stop  offset="0.2358" style="stop-color:#D8281C"/>
+					<stop  offset="0.5103" style="stop-color:#DA291C"/>
+					<stop  offset="0.7373" style="stop-color:#D8281C"/>
+					<stop  offset="0.8461" style="stop-color:#D0261B"/>
+					<stop  offset="0.9294" style="stop-color:#C32119"/>
+					<stop  offset="0.9998" style="stop-color:#B11B16"/>
+					<stop  offset="1" style="stop-color:#B11B16"/>
+				</linearGradient>
+				<path class="st0" d="M223.7,3.7L25.1,93.1l-11.2,5l7.3-3.3c-8.8,4-15.1,6.7-18.6,2.8l0.8,66c0.8,6.6,7.7,7.7,12.7,5.4l209.3-94.3
+					c3.6-1.6,7.1-1.9,7.1,1.8v-68C232.7,3.7,228.6,1.4,223.7,3.7z"/>
+				<text transform="matrix(1 -0.4513 0 1 23.6315 153.3194)" class="st1 st2 st3 st4">ENJOY 7UP</text>
+				<text transform="matrix(1 -0.4513 0 1 21.8691 152.3532)" class="st5 st6 st3 st4">ENJOY 7UP</text>
+			</g>
+		</svg>  -->
+
+		<div class="box">
+			<nav>
+				<!-- <ul class="social">
+					<li><a href="https://facebook.com/7UP" class="icon-facebook" onclick='clickfunc_social(this)' title="facebook" target="_blank"><span class="sr-only">7UP Facebook</span></a></li>
+					<li><a href="https://www.pinterest.com/7up" class="icon-pinterest" onclick='clickfunc_social(this)' title="pinterest" target="_blank"><span class="sr-only">7UP Pinterest</span></a></li>
+					<li><a href="http://instagram.com/7up" class="icon-instagram" onclick='clickfunc_social(this)' title="instagram" target="_blank"><span class="sr-only">7UP Instagram</span></a></li>
+					<li><a href="https://twitter.com/7up" class="icon-twitter" onclick='clickfunc_social(this)' title="twitter" target="_blank"><span class="sr-only">7UP Twitter</span></a></li>
+					<li><a href="http://youtube.com/user/7UP" class="icon-youtube" onclick='clickfunc_social(this)' title="youtube" target="_blank"><span class="sr-only">7UP YouTube</span></a></li>
+				</ul> -->
+				<ul class="utility">   
+					<li><a href="#" onclick='clickfunc_footer(this)' data-toggle="modal" data-target="#privacy_modal">Privacy Policy</a></li>
+					<li><a href="https://www.keurig.com/california-privacy-rights" target="_blank" onclick='clickfunc_outbound(this)'  >CA Notice at Collection</a></li>
+					<li><a href="#" id="donotsell"   onclick="clickfunc_footer(this); utag.gdpr.showConsentPreferences();">Do Not Sell or Share My Personal Information</a></li>
+					<li><a href="#" data-toggle="modal"  onclick='clickfunc_footer(this)'  data-target="#tos_modal">Terms of Use</a></li>
+					<li><a href="http://www.drpeppersnapplegroup.com/accessibility/" onclick='clickfunc_outbound(this)'  target="_blank">Accessibility</a></li>
+					<li><a href="http://www.drpeppersnapplegroup.com/contact/" onclick='clickfunc_outbound(this)'  target="_blank">Contact</a></li>
+					<li><a href="http://faq.drpeppersnapplegroup.com/system/selfservice.controller?pageSize=15&searchString=7up&CMD=SEARCH&KEYWORDS=7up&TOPIC_NAME1=All+topics&subTopicType=0&BOOL_SEARCHSTRING=+%26wtquote;7up%26wtquote;+&SIDE_LINK_TOPIC_ID=-1&SIDE_LINK_SUB_TOPIC_ID=-1&privsubtopic=&privsubproduct=&TOPIC_ID=-1&SUB_TOPIC_ID=-1&TOPIC_NAME=&SUBTOPIC_NAME=&previousProductId=-1&previousProductName=All+products&previousSubProductId=-1&previousSubProductName=All+Subproducts&searchStringDisplay=7up&CONFIGURATION=1001&PARTITION_ID=1&EXPANDED_TOPIC_TREE_NODES=&TIMEZONE_OFFSET=" target="_blank" onclick='clickfunc_footer(this)' >FAQ</a></li>
+					<li><a href="https://careers.keurigdrpepper.com/" onclick='clickfunc_outbound(this)'  target="_blank">Careers</a></li>
+					<li></li>
+				</ul>
+			</nav>
+			
+            <p>7UP and BE UPTIMISTIC are trademarks of Dr Pepper/Seven Up, Inc. &copy; 2024 Dr Pepper/Seven Up, Inc.</p>
+			<!-- <div class="credit">
+				<p>7UP and DO MORE WITH 7UP are trademarks of Dr Pepper/Seven Up, Inc.  © 2025 Dr Pepper/Seven Up, Inc.</p>
+			</div> -->
+		</div>
+	</footer>
+</section>
+<style>
+	@media (min-width: 992px){
+	.privacy_prompt{
+		top: 127px !important;
+		left:42% !important;
+	}
+}
+</style>
+			</div>
+
+    	        
+        <script src="/js/bundle.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+        
+        <div id="privacy_modal"  class="modal fade modal-wide dpsg-modal legal-modal" data-modalurl="privacy" tabindex="-1" role="dialog" >
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         </div>
+         <div class="modal-body"></div>
+      </div>
+   </div>
+</div>
+<div id="tos_modal"  class="modal fade modal-wide dpsg-modal legal-modal" data-modalurl="terms" tabindex="-1" role="dialog" >
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         </div>
+         <div class="modal-body"></div>
+      </div>
+   </div>
+</div>
+<script>
+$('#privacy_modal, #tos_modal').on('click', 'a[href^="#"]', function (e) {
+  e.preventDefault();
+  
+  var link = $(this);
+  var anchor = link.attr('href');
+  
+  link.closest('.modal').scrollTop($(anchor).position().top + 75);
+});
+</script>
+<script>
+  var glURL = "https://www.7up.com";
+  $('#privacy_modal,#tos_modal').on('shown.bs.modal', function () {
+    var modalType = $(this).data('modalurl');
+    var url = glURL+"/__/legal/us/"+modalType+"/content.html";
+    var $targetModal;
+    if (modalType === "privacy") {
+      $targetModal = $('#privacy_modal')
+    }
+    else if (modalType === "terms") {
+      $targetModal = $('#tos_modal');
+    }
+    var $targetContainer = $targetModal.find('.modal-body');
+    getModalContent(url,$targetContainer);
+  });
+  function getModalContent (url,el){
+    $.ajax({
+      url: url,
+      success: function(data){
+        el.html(data);
+      }});
+  }
+</script>
+    
+
+	<script>
+		function buttonUp(){
+			var inputVal = $('.searchbox-input').val();
+			inputVal = $.trim(inputVal).length;
+			if( inputVal !== 0){
+				$('.searchbox-icon').css('display','none');
+			} else {
+				$('.searchbox-input').val('');
+				$('.searchbox-icon').css('display','block');
+			}
+		}
+	</script>
+
+    
+                            <div id="smart-cart" data-sc-type="ec"></div>
+            <script type="text/javascript" src="//click2cart.co/assets/js/smartcart.js"></script>
+            </body>
+</html>
