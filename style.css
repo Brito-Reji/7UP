@@ -147,3 +147,7 @@ span {
 footer :first-child {
   flex-direction: row;
 }
+
+footer {
+  font-size: 10px;
+}
