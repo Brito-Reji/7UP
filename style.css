@@ -3,6 +3,7 @@
 body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -20,20 +21,27 @@ header {
 }
 
 .icon {
-  height: 65px;
+  height: 33px;
 }
 
+#social {
+  margin-right: 42px;
+}
 #social img {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
+  margin: 2px;
 }
 #things {
-  font-size: 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
 }
 #left {
   margin-left: 10px;
 }
-#left span {
+#left nav,
+img {
   margin-left: 10px;
 }
 
