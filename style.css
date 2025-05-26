@@ -107,8 +107,6 @@ img {
   color: white;
 }
 
-.innersection > :nth-child(2) {
-}
 .innersection > :nth-child(3) {
   background: none;
   border: 2px solid white;
